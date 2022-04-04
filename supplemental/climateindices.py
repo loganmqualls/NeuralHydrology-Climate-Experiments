@@ -9,8 +9,8 @@ import pandas as pd
 from numba import njit
 from tqdm import tqdm
 
-from thebag.camelsus import load_camels_us_forcings, load_camels_us_attributes
-from thebag import pet
+from supplemental.camelsus import load_camels_us_forcings, load_camels_us_attributes
+from supplemental import pet
 
 LOGGER = logging.getLogger(__name__)
 
