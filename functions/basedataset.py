@@ -17,8 +17,8 @@ from ruamel.yaml import YAML
 from torch.utils.data import Dataset
 from tqdm import tqdm
 
-from supplemental import utils
-from supplemental.config import Config
+from functions import utils
+from functions.config import Config
 
 LOGGER = logging.getLogger(__name__)
 

@@ -5,8 +5,8 @@ import numpy as np
 import pandas as pd
 import xarray
 
-from supplemental.basedataset import BaseDataset
-from supplemental.config import Config
+from functions.basedataset import BaseDataset
+from functions.config import Config
 
 
 class CamelsUS(BaseDataset):
