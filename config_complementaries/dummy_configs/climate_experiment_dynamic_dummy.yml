@@ -21,7 +21,7 @@ test_end_date: '30/12/2014'
 
 # if you want to use different (continuous or split) periods per basin (and period) define path to pickle files here.
 per_basin_train_periods_file: dummy_train_dates_file
-# per_basin_validation_periods_file:
+per_basin_validation_periods_file: dummy_train_dates_file
 # per_basin_test_periods_file: dummy_test_dates_file
 
 # fixed seed, leave empty to use a random seed
