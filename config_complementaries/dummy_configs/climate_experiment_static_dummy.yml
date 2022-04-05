@@ -7,9 +7,9 @@ experiment_name: dummy_run
 run_dir: dummy_dir
 
 # files to specify training, validation and test basins (relative to code root or absolute path)
-train_basin_file: /home/lmqualls/kratzert/climate/nonstationarity/configs/basin_lists/531_basin_list.txt
-validation_basin_file: /home/lmqualls/kratzert/climate/nonstationarity/configs/basin_lists/531_basin_list.txt
-test_basin_file: /home/lmqualls/kratzert/climate/nonstationarity/configs/basin_lists/531_basin_list.txt
+train_basin_file: dummy_basin_list
+# validation_basin_file: dummy_basin_list
+test_basin_file: dummy_basin_list
 
 # training, validation and test time periods (format = 'dd/mm/yyyy')
 # train_start_date:
@@ -22,7 +22,7 @@ test_end_date: '30/12/2014'
 # if you want to use different (continuous or split) periods per basin (and period) define path to pickle files here.
 per_basin_train_periods_file: dummy_train_dates_file
 # per_basin_validation_periods_file:
-per_basin_test_periods_file: dummy_test_dates_file
+# per_basin_test_periods_file: dummy_test_dates_file
 
 # fixed seed, leave empty to use a random seed
 seed: dummy_seed
@@ -147,7 +147,7 @@ save_weights_every: 5
 dataset: camels_us
 
 # Path to data set root
-data_dir: /home/lmqualls/kratzert/climate/camels/basin_dataset_public_v1p2
+data_dir: dummy_camels_v1p2
 
 save_train_data: True
 
