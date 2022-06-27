@@ -1,5 +1,7 @@
 # NeuralHydrology-Climate-Experiments
 
+**Active Repository (06/27/2022)**
+
 Although deep learning hydrological models provide the most accurate streamflow predictions to-date, concerns about their reliablility in real-world conditions have been raised. Long Short-Term Memory (LSTM) models have demonstrated a unique ability to extrapolate in such scenarios, addressing problems like predictions in ungaged basins and extreme event detection (Hrachowitz et al., 2013; Frame et al., 2021). Hydrological responses are prone to change, particularly under changing climate conditions. To investigate LSTM robustness under climate change, biased train and test were created to simulate changing climate distributions. By training the model on data from hydrological years characterized by one climate extreme and quantifying their predictive ability on test years characterized by the opposite extreme, we can simulate climate nonstationarity and begin to assess model robustness.
 
 This repository is designed to create climate experiments for both NeuralHydrology LSTM and Sacramento Soil Moisture Accounting (SAC-SMA) models using the National Center for Atmospheric Research's (NCAR) Catchment Attributes and Meteorology for Large-Sample Studies (CAMELS) dataset(https://ral.ucar.edu/solutions/products/camels). This repository is designed to work with CAMELS version 2 to have the CAMELS directory in the main directory with the Jupyter Notebooks. 
